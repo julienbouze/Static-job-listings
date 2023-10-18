@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#attribution {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size : 0.6rem;
+}
+
+#attribution a {
+    color :hsl(180, 29%, 50%);
+}
+body{
+    font-family :'League Spartan';
+    font-size : 14px;
+    font-weight : 500;
+    background-color : hsl(180, 52%, 96%);
+}
+.header{
+    background-color : hsl(180, 29%, 50%);
+}
+
+.job{
+    background-color : white;
+}
+.featured{
+    border-left : 7px solid hsl(180, 29%, 50%);
+}
+.new-badge{
+    background-color : hsl(180, 29%, 50%);
+    text-transform : uppercase;
+}
+.badge-featured{
+    background-color : black;
+    text-transform : uppercase;
+}
+.badge-tool{
+    margin-right : 0.5em;
+    color :hsl(180, 29%, 50%);
+    background-color : hsl(180, 31%, 95%);
+    cursor : pointer;
+    transition : 1s;
+}
+.badge-tool:hover{
+    background-color :hsl(180, 29%, 50%);
+    color : hsl(180, 31%, 95%);
+}
+.filter-tag{
+    color : hsl(180, 29%, 50%);
+    background-color : hsl(180, 52%, 96%);
+    font-size : 14px;
+    font-weight : 400;
+    display: flex;
+    padding-right : 0;
+    overflow:hidden;
+    align-items: center;
+    justify-content : center;
+}
+
+.tags{
+    position : relative;
+    background-color : white;
+    margin-top : -25px;
+}
+.filter-tag > *{
+    display: inline-block;
+}
+.button{
+    color : hsl(180, 29%, 50%);
+    text-decoration : underline;
+}
+.close:hover{
+    background-color : black;
+}
+
+.close {
+  cursor: pointer;
+  background-color : hsl(180, 29%, 50%);
+  height: 100%;
+  width: 28px;
+  text-align: center;
+  color : hsl(180, 52%, 96%);
+  font-weight: bold; 
+}
+
+.top > * , .bottom > *{
+    display : inline-block;
+    margin : 0;
+}
+.company-name{
+    color : hsl(180, 29%, 50%);
+    font-weight : 300;
+}
+.job-title{
+    font-weight : 700;
+}
+.bottom {
+    color : #aaaaaa;
+    font-weight : 300;
+}
+
+@media (max-width: 575.9px) {
+  .logo{
+      margin-top : -40px;
+      width : 50px;
+  }
+}
+
